@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+    <div class="content">
+            <span id="logo">
+                <img id = "imgLogo" src="./assets/weight-loss.svg" alt="">
+            </span>
+            <div class="app" id="app">
+                <label>Altura<input type="text" id="altura" ></label>
+                <label>Peso<input type="text" id="peso" ></label>
+                <button id="btnCalc">Calcular IMC</button>
+            </div>
+            <div class="app" id = "resultado">
+                <p><b>Resultado:</b></p>
+                <input type="text" id="textResultado">
+                <p id="detalhes">Você esta acima do peso, que tal praticar mais exercicios e controlar a dieta</p>
+                <button id="clear">Calcular novamente</button>
+            </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

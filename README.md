@@ -1,2 +1,2 @@
-# calculadora-de-IMC
-Uma simples aplicação para aprendizado de HTML, CSS e javascript
+# IMC-Calc
+Calculadora de IMC
